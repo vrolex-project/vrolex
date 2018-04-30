@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=vRolexCoin
+Comment=vRolexCoin P2P Cryptocurrency
+Exec=vrolexcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/vrolexcoin;
+Categories=Office;Finance;
+Name[en_US]=vrolexcoin-qt.desktop
