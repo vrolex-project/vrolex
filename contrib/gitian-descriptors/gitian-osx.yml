@@ -68,6 +68,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
+  chmod -R 777 vrolexcoin
   cd vrolexcoin
   BASEPREFIX=`pwd`/depends
 
