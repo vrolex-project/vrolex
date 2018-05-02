@@ -78,7 +78,6 @@ script: |
 
   # Create the release tarball using (arbitrarily) the first host
   echo `pwd`
-  chmod -R 
   ls
   cd build-aux
   ls
