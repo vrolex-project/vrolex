@@ -18,12 +18,13 @@ packages:
 - "g++-mingw-w64"
 - "nsis"
 - "zip"
-reference_datetime: "2016-01-01 00:00:00"
+reference_datetime: "2018-05-02 00:00:00"
 remotes:
 - "url": "https://github.com/vrolexcoin-project/vrolexcoin.git"
   "dir": "vrolexcoin"
 files: []
 script: |
+  echo "START"
   WRAP_DIR=$HOME/wrapped
   HOSTS="x86_64-w64-mingw32"
   CONFIGFLAGS=""
@@ -43,6 +44,7 @@ script: |
   fi
 
   # Create global faketime wrappers
+  echo "Create global faketime wrappers"
   for prog in ${FAKETIME_PROGS}; do
     echo '#!/bin/bash' > ${WRAP_DIR}/${prog}
     echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
@@ -53,6 +55,7 @@ script: |
   done
 
   # Create per-host faketime wrappers
+  echo "Create per-host faketime wrappers"
   for i in $HOSTS; do
     for prog in ${FAKETIME_HOST_PROGS}; do
         echo '#!/bin/bash' > ${WRAP_DIR}/${i}-${prog}
@@ -74,6 +77,8 @@ script: |
   done
 
   # Create the release tarball using (arbitrarily) the first host
+  echo `pwd`
+  ls
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
@@ -114,4 +119,3 @@ script: |
   mkdir -p $OUTDIR/src
   mv $SOURCEDIST $OUTDIR/src
   mv ${OUTDIR}/${DISTNAME}-x86_64-*.zip ${OUTDIR}/${DISTNAME}-win64.zip
-  mv ${OUTDIR}/${DISTNAME}-i686-*.zip ${OUTDIR}/${DISTNAME}-win32.zip
