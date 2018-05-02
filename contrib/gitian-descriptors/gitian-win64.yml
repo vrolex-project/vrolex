@@ -78,7 +78,11 @@ script: |
 
   # Create the release tarball using (arbitrarily) the first host
   echo `pwd`
+  chmod -R 
   ls
+  cd build-aux
+  ls
+  cd ..
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
