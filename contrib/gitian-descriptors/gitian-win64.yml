@@ -77,7 +77,9 @@ script: |
   done
 
   # Create the release tarball using (arbitrarily) the first host
-  export PATH=${WRAP_DIR}:${PATH}
+  chmod +x autogen.sh 
+  cd share/ && chmod +x genbuild.sh 
+  cd .. && cd src/leveldb && chmod +x build_detect_platform && cd ../.. 
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
