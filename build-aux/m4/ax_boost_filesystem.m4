@@ -33,6 +33,8 @@
 
 #serial 26
 
+echo "ax_boost_filesystem";
+
 AC_DEFUN([AX_BOOST_FILESYSTEM],
 [
 	AC_ARG_WITH([boost-filesystem],

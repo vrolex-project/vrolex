@@ -1,3 +1,5 @@
+echo "bitcoin_subdir_to_include";
+
 dnl BITCOIN_SUBDIR_TO_INCLUDE([CPPFLAGS-VARIABLE-NAME],[SUBDIRECTORY-NAME],[HEADER-FILE])
 dnl SUBDIRECTORY-NAME must end with a path separator
 AC_DEFUN([BITCOIN_SUBDIR_TO_INCLUDE],[

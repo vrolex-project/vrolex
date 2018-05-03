@@ -84,6 +84,8 @@
 
 #serial 21
 
+echo "ax_pthread";
+
 AU_ALIAS([ACX_PTHREAD], [AX_PTHREAD])
 AC_DEFUN([AX_PTHREAD], [
 AC_REQUIRE([AC_CANONICAL_HOST])

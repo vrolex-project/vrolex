@@ -32,6 +32,8 @@
 
 #serial 27
 
+echo "ax_boost_thread";
+
 AC_DEFUN([AX_BOOST_THREAD],
 [
 	AC_ARG_WITH([boost-thread],

@@ -35,6 +35,8 @@
 
 #serial 23
 
+echo "ax_boost_base";
+
 AC_DEFUN([AX_BOOST_BASE],
 [
 AC_ARG_WITH([boost],

@@ -33,6 +33,8 @@
 
 #serial 17
 
+echo "ax_boost_system";
+
 AC_DEFUN([AX_BOOST_SYSTEM],
 [
 	AC_ARG_WITH([boost-system],

@@ -31,6 +31,8 @@
 
 #serial 1
 
+echo "ax_boost_chrono";
+
 AC_DEFUN([AX_BOOST_CHRONO],
 [
 	AC_ARG_WITH([boost-chrono],

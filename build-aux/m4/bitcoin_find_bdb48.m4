@@ -1,3 +1,5 @@
+echo "bitcoin_find_bdb48";
+
 AC_DEFUN([BITCOIN_FIND_BDB48],[
   AC_MSG_CHECKING([for Berkeley DB C++ headers])
   BDB_CPPFLAGS=

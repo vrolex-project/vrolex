@@ -55,6 +55,8 @@
 
 #serial 2
 
+echo "ax_check_preproc_flag";
+
 AC_DEFUN([AX_CHECK_PREPROC_FLAG],
 [AC_PREREQ(2.59)dnl for _AC_LANG_PREFIX
 AS_VAR_PUSHDEF([CACHEVAR],[ax_cv_check_[]_AC_LANG_ABBREV[]cppflags_$4_$1])dnl

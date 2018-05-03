@@ -31,6 +31,8 @@
 
 #serial 19
 
+echo "ax_boost_unit_test_framework";
+
 AC_DEFUN([AX_BOOST_UNIT_TEST_FRAMEWORK],
 [
 	AC_ARG_WITH([boost-unit-test-framework],

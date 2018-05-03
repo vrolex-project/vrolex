@@ -55,6 +55,8 @@
 
 #serial 2
 
+echo "ax_check_link_flag";
+
 AC_DEFUN([AX_CHECK_LINK_FLAG],
 [AS_VAR_PUSHDEF([CACHEVAR],[ax_cv_check_ldflags_$4_$1])dnl
 AC_CACHE_CHECK([whether the linker accepts $1], CACHEVAR, [

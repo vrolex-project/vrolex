@@ -31,6 +31,8 @@
 
 #serial 22
 
+echo "ax_boost_program_options";
+
 AC_DEFUN([AX_BOOST_PROGRAM_OPTIONS],
 [
 	AC_ARG_WITH([boost-program-options],
