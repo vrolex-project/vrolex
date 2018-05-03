@@ -55,14 +55,19 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (  0, uint256("0x"))
+        (  2, uint256("0x13f8ffaf06e94b750d78bfd70e8fb28860cb37bcd64844b39ef8d4619d320a88"))
+        (  4, uint256("0x66beab62dd8fd38f9dff70869c264439206d6ed7892d7144244dbfb6706adcb8"))
+        (  8, uint256("0xf82678082ff94b196454b176dcc5fd5a5c26aeb5786a7e1cbff563f1662d58d0"))
+        ( 16, uint256("0xe8ac7b9523a2faf11e11c938a73071d20b0d27cc8122b771b1189fdab83ba0b6"))
+        ( 32, uint256("0x2e97922a3c2f9d299ef2006608a176459922914d98d5f9d79b03dc2c09d9bb4d"))
+        ( 64, uint256("0x4409c133485561503b819e3f734271848b58996d254bb0e6f4d84a1cea173deb"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1525219200, // * UNIX timestamp of last checkpoint block
-        0,   // * total number of transactions between genesis and last checkpoint
+        1525262896, // * UNIX timestamp of last checkpoint block
+        1,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        0     // * estimated number of transactions per day after checkpoint
+        2880     // * estimated number of transactions per day after checkpoint
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -105,12 +110,12 @@ public:
         nDefaultPort = 16783;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         nSubsidyHalvingInterval = 100000000;
-        nEnforceBlockUpgradeMajority = 750;
-        nRejectBlockOutdatedMajority = 950;
-        nToCheckBlockUpgradeMajority = 1000;
+        nEnforceBlockUpgradeMajority = -1;
+        nRejectBlockOutdatedMajority = -1;
+        nToCheckBlockUpgradeMajority = -1;
         nMinerThreads = 0;
-        nTargetTimespan = 60; // 3.5 days
-        nTargetSpacing = 60; // 2.5 minutes
+        nTargetTimespan = 120; // 4 minutes
+        nTargetSpacing = 30; // 30 seconds
         nMaxTipAge = 24 * 60 * 60;
 
         /**
@@ -145,7 +150,7 @@ public:
 
         //vSeeds.push_back(CDNSSeedData("vrolexcointools.com", "dnsseed.vrolexcointools.com"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,132);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
@@ -187,12 +192,12 @@ public:
         pchMessageStart[3] = 0xf1;
         vAlertPubKey = ParseHex("0449623fc74489a947c4b15d579115591add020e53b3490bf47297dfa3762250625f8ecc2fb4fc59f69bdce8f7080f3167808276ed2c79d297054367566038aa82");
         nDefaultPort = 26783;
-        nEnforceBlockUpgradeMajority = 51;
-        nRejectBlockOutdatedMajority = 75;
-        nToCheckBlockUpgradeMajority = 100;
+        nEnforceBlockUpgradeMajority = -1;
+        nRejectBlockOutdatedMajority = -1;
+        nToCheckBlockUpgradeMajority = -1;
         nMinerThreads = 0;
-        nTargetTimespan = 60; // 3.5 days
-        nTargetSpacing = 60; // 2.5 minutes
+        nTargetTimespan = 120; // 4 minutes
+        nTargetSpacing = 30; // 30 seconds
         nMaxTipAge = 0x7fffffff;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -245,12 +250,12 @@ public:
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0xda;
         nSubsidyHalvingInterval = 150;
-        nEnforceBlockUpgradeMajority = 750;
-        nRejectBlockOutdatedMajority = 950;
-        nToCheckBlockUpgradeMajority = 1000;
+        nEnforceBlockUpgradeMajority = -1;
+        nRejectBlockOutdatedMajority = -1;
+        nToCheckBlockUpgradeMajority = -1;
         nMinerThreads = 1;
-        nTargetTimespan = 60; // 3.5 days
-        nTargetSpacing = 60; // 2.5 minutes
+        nTargetTimespan = 120; // 4 minutes
+        nTargetSpacing = 30; // 30 seconds
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nMaxTipAge = 24 * 60 * 60;
         genesis.nTime = 1525132800;
