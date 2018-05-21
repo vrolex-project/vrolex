@@ -1,4 +1,4 @@
-// Copyright (c) 2012-2014 The Bitcoin developers
+// Copyright (c) 2012-2016 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@
  * for both bitcoind and bitcoin-core, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Satoshi");
+const std::string CLIENT_NAME("vRolexCoinCore");
 
 /**
  * Client version number
@@ -45,8 +45,8 @@ const std::string CLIENT_NAME("Satoshi");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "9d11a2dc6cb7"
-#define GIT_COMMIT_DATE "Wed, 26 Apr 2017 21:02:11 -0700"
+#define GIT_COMMIT_ID "7299f6dfa84"
+#define GIT_COMMIT_DATE "Tue, 25 Jul 2017 03:11:44 +0000"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \
@@ -68,16 +68,7 @@ const std::string CLIENT_NAME("Satoshi");
 #endif
 #endif
 
-#ifndef BUILD_DATE
-#ifdef GIT_COMMIT_DATE
-#define BUILD_DATE GIT_COMMIT_DATE
-#else
-#define BUILD_DATE __DATE__ ", " __TIME__
-#endif
-#endif
-
 const std::string CLIENT_BUILD(BUILD_DESC CLIENT_VERSION_SUFFIX);
-const std::string CLIENT_DATE(BUILD_DATE);
 
 static std::string FormatVersion(int nVersion)
 {

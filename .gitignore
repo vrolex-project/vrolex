@@ -6,8 +6,8 @@ src/vrolexcoind
 src/vrolexcoin-cli
 src/vrolexcoin-tx
 src/test/test_vrolexcoin
+src/test/test_vrolexcoin_fuzzy
 src/qt/test/test_vrolexcoin-qt
-
 
 # autoreconf
 Makefile.in
@@ -36,8 +36,6 @@ src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
 
-src/univalue/gen
-
 src/qt/*.moc
 src/qt/moc_*.cpp
 src/qt/forms/ui_*.h
@@ -55,8 +53,6 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-*.patch
-.bitcoin
 *.a
 *.pb.cc
 *.pb.h
@@ -74,7 +70,6 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
 vrolexcoin-qt
 vRolexCoin-Qt.app
 
@@ -86,17 +81,15 @@ src/test/buildenv.py
 # Resources cpp
 qrc_*.cpp
 
-# Qt creator
-*.pro.user
-
 # Mac specific
 .DS_Store
 build
 
 #lcov
 *.gcno
+*.gcda
 /*.info
-test_bitcoin.coverage/
+test_vrolexcoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -104,12 +97,12 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
-qa/pull-tester/run-bitcoind-for-test.sh
-qa/pull-tester/tests-config.sh
-qa/pull-tester/cache/*
-qa/pull-tester/test.*/*
+qa/pull-tester/tests_config.py
+qa/cache/*
 
 !src/leveldb*/Makefile
-!depends/Makefile
 
 /doc/doxygen/
+
+libbitcoinconsensus.pc
+contrib/devtools/split-debug.sh

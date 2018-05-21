@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "vRolexCoin"
-            VALUE "FileDescription",    "vRolexCoin-cli (OSS RPC client for vRolexCoin)"
+            VALUE "FileDescription",    "vrolexcoin-cli (JSON-RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "vrolexcoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
-            VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
+            VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "vrolexcoin-cli.exe"
-            VALUE "ProductName",        "vRolexCoin-cli"
+            VALUE "ProductName",        "vrolexcoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
