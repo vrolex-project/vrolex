@@ -43,8 +43,8 @@ This makes it necessary to build boost, or at least the parts used by vRolexCoin
 
 ```
 # Pick some path to install boost to, here we create a directory within the vrolexcoin directory
-ZEUSCOIN_ROOT=$(pwd)
-BOOST_PREFIX="${ZEUSCOIN_ROOT}/boost"
+VROLEXCOIN_ROOT=$(pwd)
+BOOST_PREFIX="${VROLEXCOIN_ROOT}/boost"
 mkdir -p $BOOST_PREFIX
 
 # Fetch the source and verify that it is not tampered with
@@ -75,8 +75,8 @@ You cannot use the BerkeleyDB library from ports, for the same reason as boost a
 
 ```bash
 # Pick some path to install BDB to, here we create a directory within the vrolexcoin directory
-ZEUSCOIN_ROOT=$(pwd)
-BDB_PREFIX="${ZEUSCOIN_ROOT}/db4"
+VROLEXCOIN_ROOT=$(pwd)
+BDB_PREFIX="${VROLEXCOIN_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with

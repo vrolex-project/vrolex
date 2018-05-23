@@ -168,10 +168,10 @@ Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
 ```bash
-ZEUSCOIN_ROOT=$(pwd)
+VROLEXCOIN_ROOT=$(pwd)
 
 # Pick some path to install BDB to, here we create a directory within the vrolexcoin directory
-BDB_PREFIX="${ZEUSCOIN_ROOT}/db4"
+BDB_PREFIX="${VROLEXCOIN_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with
@@ -187,7 +187,7 @@ cd db-4.8.30.NC/build_unix/
 make install
 
 # Configure vRolexCoin Core to use our own-built instance of BDB
-cd $ZEUSCOIN_ROOT
+cd $VROLEXCOIN_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
 ```

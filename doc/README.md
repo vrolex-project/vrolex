@@ -1,4 +1,4 @@
-vRolexCoin Core 0.14.2
+vRolexCoin Core 0.14.5
 =====================
 
 Setup

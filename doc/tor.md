@@ -1,4 +1,4 @@
-TOR SUPPORT IN ZEUSCOIN
+TOR SUPPORT IN VROLEXCOIN
 ======================
 
 It is possible to run vRolexCoin as a Tor hidden service, and connect to such services.

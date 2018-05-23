@@ -1,6 +1,6 @@
-vRolexCoin Core version 0.14.2 is now available from:
+vRolexCoin Core version 0.14.5 is now available from:
 
-  <https://download.vrolex.org/vrolexcoin-0.14.2.0/>
+  <https://vrolex.org/downloads/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
