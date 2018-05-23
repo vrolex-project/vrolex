@@ -114,8 +114,8 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -484,8 +484,8 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>Craidd vRolexCoin</translation>
+        <source>VRolex Core</source>
+        <translation>Craidd VRolex</translation>
     </message>
     <message>
         <source>Information</source>

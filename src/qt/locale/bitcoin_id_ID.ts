@@ -62,12 +62,12 @@
         <translation>Alamat-alamat penerima</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ini adalah alamat- alamat vRolexCoin Anda untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <source>These are your VRolex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ini adalah alamat- alamat VRolex Anda untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ini adalah alamat- alamat vRolexCoin Anda untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap melakukan transaksi.</translation>
+        <source>These are your VRolex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ini adalah alamat- alamat VRolex Anda untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap melakukan transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>Konfirmasi pengenkripsian dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXCOINS&lt;/b&gt;!</source>
-        <translation>Peringatan: Jika Anda enkripsi dompet Anda dan lupa kata sandi anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA VROLEXCOIN ANDA&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXS&lt;/b&gt;!</source>
+        <translation>Peringatan: Jika Anda enkripsi dompet Anda dan lupa kata sandi anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA VROLEX ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,7 +176,7 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vrolexcoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vrolexs from being stolen by malware infecting your computer.</source>
         <translation>%1 sekarang akan ditutup untuk menyelesaikan proses enkripsi. Ingatlah bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi komputer Anda dari pencurian malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
@@ -334,8 +334,8 @@
         <translation>Mengindex ulang blok di dalam disk...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Kirim koin ke alamat vRolexCoin</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Kirim koin ke alamat VRolex</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +386,12 @@
         <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat vRolexCoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat VRolex Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat vRolexCoin tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat VRolex tertentu</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +410,8 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Permintaan pembayaran (membuat kode QR dan vrolexcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan vrolex: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,16 +422,16 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Buka URI vrolexcoin: atau permintaan pembayaran</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Buka URI vrolex: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n koneksi aktif ke jaringan vRolexCoin</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n koneksi aktif ke jaringan VRolex</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -474,8 +474,8 @@
         <translation>Terbaru</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible vRolexCoin command-line options</source>
-        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah vRolexCoin yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible VRolex command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah VRolex yang memungkinkan</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -864,16 +864,16 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client vRolexCoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client VRolex di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Petakan port dengan &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan vRolexCoin melalui SOCKS5 proxy.</translation>
+        <source>Connect to the VRolex network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan VRolex melalui SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -979,8 +979,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vRolexCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan vRolexCoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VRolex network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan VRolex ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1036,8 +1036,8 @@
         <translation>Nilai</translation>
     </message>
     <message>
-        <source>Enter a vRolexCoin address (e.g. %1)</source>
-        <translation>Masukkan alamat vRolexCoin (contoh %1)</translation>
+        <source>Enter a VRolex address (e.g. %1)</source>
+        <translation>Masukkan alamat VRolex (contoh %1)</translation>
     </message>
     <message>
         <source>%1 h</source>
@@ -1543,8 +1543,8 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this vRolexCoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat vRolexCoin ini</translation>
+        <source>Sign the message to prove you own this VRolex address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat VRolex ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1676,8 +1676,8 @@
         <translation>Berjalan dibelakang sebagai daemin dan menerima perintah</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>

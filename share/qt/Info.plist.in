@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>vRolexCoin-Qt</string>
+  <string>VRolex-Qt</string>
   
   <key>CFBundleName</key>
-  <string>vRolexCoin-Qt</string>
+  <string>VRolex-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.vrolexcoin.vRolexCoin-Qt</string>
+  <string>org.vrolex.VRolex-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.vrolexcoin.vRolexCoinPayment</string>
+      <string>org.vrolex.VRolexPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>vrolexcoin</string>
+        <string>vrolex</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.vrolexcoin.paymentrequest</string>
+      <string>org.vrolex.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>vRolexCoin payment request</string>
+      <string>VRolex payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-vrolexcoin-payment-request</string>
+        <string>application/x-vrolex-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>vrolexcoinpaymentrequest</string>
+          <string>vrolexpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.vrolexcoin.paymentrequest</string>
+        <string>org.vrolex.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

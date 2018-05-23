@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/vrolexcoin
-src/vrolexcoind
-src/vrolexcoin-cli
-src/vrolexcoin-tx
-src/test/test_vrolexcoin
-src/test/test_vrolexcoin_fuzzy
-src/qt/test/test_vrolexcoin-qt
+src/vrolex
+src/vrolexd
+src/vrolex-cli
+src/vrolex-tx
+src/test/test_vrolex
+src/test/test_vrolex_fuzzy
+src/qt/test/test_vrolex-qt
 
 # autoreconf
 Makefile.in
@@ -70,12 +70,12 @@ src/qt/test/moc*.cpp
 
 # Compilation and Qt preprocessor part
 *.qm
-vrolexcoin-qt
-vRolexCoin-Qt.app
+vrolex-qt
+VRolex-Qt.app
 
 # Unit-tests
 Makefile.test
-vrolexcoin-qt_test
+vrolex-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -89,7 +89,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_vrolexcoin.coverage/
+test_vrolex.coverage/
 total.coverage/
 coverage_percent.txt
 

@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -708,8 +708,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin மையம்</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

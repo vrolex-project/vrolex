@@ -214,8 +214,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>

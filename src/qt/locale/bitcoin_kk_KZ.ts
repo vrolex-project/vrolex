@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
+        <source>VRolex</source>
         <translation>Биткоин</translation>
     </message>
     <message>

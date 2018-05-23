@@ -47,7 +47,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "vRolexCoin cannot be compiled without assertions."
+# error "VRolex cannot be compiled without assertions."
 #endif
 
 /**
@@ -88,7 +88,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "vRolexCoin Signed Message:\n";
+const std::string strMessageMagic = "VRolex Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -3617,7 +3617,7 @@ bool CVerifyDB::VerifyDB(const CChainParams& chainparams, CCoinsView *coinsview,
 
     // Verify blocks in the best chain
     if (nCheckDepth <= 0)
-        // vRolexCoin: suffices until year 10214. Didn't x4 value due to integer wrap around and upstream compatibility.
+        // VRolex: suffices until year 10214. Didn't x4 value due to integer wrap around and upstream compatibility.
         nCheckDepth = std::numeric_limits<int>::max();
     if (nCheckDepth > chainActive.Height())
         nCheckDepth = chainActive.Height();

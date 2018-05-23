@@ -158,8 +158,8 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>vRolexCoin küldése megadott címre</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>VRolex küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -182,8 +182,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -210,12 +210,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a vRolexCoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a VRolex-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt vRolexCoin-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt VRolex-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -234,8 +234,8 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "vrolexcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "vrolex:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -246,16 +246,16 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>"vrolexcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>"vrolex:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a vRolexCoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a vRolexCoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n aktív kapcsolat a VRolex hálózathoz</numerusform><numerusform>%n aktív kapcsolat a VRolex hálózathoz</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -592,16 +592,16 @@
         <translation>Szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A vRolexCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A VRolex-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a vRolexCoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the VRolex network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a VRolex hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -695,8 +695,8 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vRolexCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a vRolexCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VRolex network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a VRolex hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -764,8 +764,8 @@
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a vRolexCoin address (e.g. %1)</source>
-        <translation>Ad meg egy vRolexCoin címet (pl: %1)</translation>
+        <source>Enter a VRolex address (e.g. %1)</source>
+        <translation>Ad meg egy VRolex címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1285,7 +1285,7 @@
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this vRolexCoin address</source>
+        <source>Sign the message to prove you own this VRolex address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1378,8 +1378,8 @@
 </translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -1533,7 +1533,7 @@
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég vrolexcoinod.</translation>
+        <translation>Nincs elég vrolexod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

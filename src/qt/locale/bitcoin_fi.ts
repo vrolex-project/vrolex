@@ -166,8 +166,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Lähetä kolikoita vRolexCoin-osoitteeseen</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Lähetä kolikoita VRolex-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -190,8 +190,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -211,19 +211,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota vRolexCoin-ikkuna</translation>
+        <translation>Näytä tai piilota VRolex-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla vRolexCoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla VRolex -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä vRolexCoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä VRolex -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -242,8 +242,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja vrolexcoin: URIt)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja vrolex: URIt)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -254,16 +254,16 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Avaa vrolexcoin: URI tai maksupyyntö</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Avaa vrolex: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys vRolexCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä vRolexCoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n aktiivinen yhteys VRolex-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä VRolex-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -306,8 +306,8 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible vRolexCoin command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista vRolexCoinin komentorivivalinnoista</translation>
+        <source>Show the %1 help message to get a list with possible VRolex command-line options</source>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista VRolexin komentorivivalinnoista</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -551,8 +551,8 @@
         <translation>Tämä on ensimmäinen kerta, kun %1 on käynnistetty, joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the vRolexCoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 lataa ja tallentaa kopion vRolexCoinin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>%1 will download and store a copy of the VRolex block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 lataa ja tallentaa kopion VRolexin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -708,16 +708,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa vRolexCoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa VRolex-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä vRolexCoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the VRolex network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä VRolex-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -756,8 +756,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä vRolexCoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the VRolex network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä VRolex-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -793,11 +793,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona vrolexcoin-määrät näytetään</translation>
+        <translation>Yksikkö jona vrolex-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti vrolexcoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti vrolex-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -847,8 +847,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vRolexCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu vRolexCoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VRolex network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu VRolex-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien vRolexCoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien VRolexien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -936,8 +936,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a vRolexCoin address (e.g. %1)</source>
-        <translation>Syötä vRolexCoin-osoite (esim. %1)</translation>
+        <source>Enter a VRolex address (e.g. %1)</source>
+        <translation>Syötä VRolex-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1276,8 +1276,8 @@
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the vRolexCoin network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä vRolexCoin-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the VRolex network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä VRolex-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1354,7 +1354,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä vRolexCoineja</translation>
+        <translation>Lähetä VRolexeja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1508,8 +1508,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The vRolexCoin address to send the payment to</source>
-        <translation>vRolexCoin-osoite johon maksu lähetetään</translation>
+        <source>The VRolex address to send the payment to</source>
+        <translation>VRolex-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1528,8 +1528,8 @@
         <translation>Poista tämä alkio</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less vrolexcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän vrolexcoineja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vrolexs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän vrolexeja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1552,8 +1552,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the vrolexcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the vRolexCoin network.</source>
-        <translation>Viesti joka liitettiin vrolexcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä vRolexCoin-verkkoon.</translation>
+        <source>A message that was attached to the vrolex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the VRolex network.</source>
+        <translation>Viesti joka liitettiin vrolex: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä VRolex-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1589,8 +1589,8 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>The vRolexCoin address to sign the message with</source>
-        <translation>vRolexCoin-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The VRolex address to sign the message with</source>
+        <translation>VRolex-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1621,8 +1621,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this vRolexCoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän vRolexCoin-osoitteen</translation>
+        <source>Sign the message to prove you own this VRolex address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän VRolex-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1641,12 +1641,12 @@
         <translation>&amp;Varmista viesti</translation>
     </message>
     <message>
-        <source>The vRolexCoin address the message was signed with</source>
-        <translation>vRolexCoin-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The VRolex address the message was signed with</source>
+        <translation>VRolex-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified vRolexCoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä vRolexCoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified VRolex address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä VRolex-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1778,8 +1778,8 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin-ydin</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>

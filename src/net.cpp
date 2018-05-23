@@ -1466,7 +1466,7 @@ void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "vRolexCoin " + FormatFullVersion();
+        std::string strDesc = "VRolex " + FormatFullVersion();
 
         try {
             while (true) {

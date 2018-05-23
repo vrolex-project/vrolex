@@ -54,8 +54,8 @@
         <translation>&amp;Odaberi</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše vRolexCoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your VRolex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše VRolex adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -174,8 +174,8 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Slanje novca na vrolexcoin adresu</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Slanje novca na vrolex adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -198,8 +198,8 @@
         <translation>&amp;Potvrdite poruku...</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -226,12 +226,12 @@
         <translation>Šifriranje privatnih ključeva koji u novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s vrolexcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Poruku potpišemo s vrolex adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom vrolexcoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom vrolex adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -250,8 +250,8 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i vrolexcoin: URI adresu)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i vrolex: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -262,16 +262,16 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Otvori vrolexcoin: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Otvori vrolex: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n aktivna veza na vRolexCoin mrežu</numerusform><numerusform>%n aktivnih veza na vRolexCoin mrežu</numerusform><numerusform>%n aktivnih veza na vRolexCoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n aktivna veza na VRolex mrežu</numerusform><numerusform>%n aktivnih veza na VRolex mrežu</numerusform><numerusform>%n aktivnih veza na VRolex mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -423,11 +423,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka vrolexcoin adrese</translation>
+        <translation>Oznaka vrolex adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>vRolexCoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>VRolex adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -568,8 +568,8 @@
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port vRolexCoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port VRolex klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -617,7 +617,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio vrolexcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio vrolexa koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -643,8 +643,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vRolexCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s vRolexCoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VRolex network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s VRolex mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1034,8 +1034,8 @@
         <translation>Izvršavaj u pozadini kao uslužnik i prihvaćaj komande</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>Block creation options:</source>

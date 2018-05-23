@@ -1,42 +1,42 @@
-vRolexCoin Core integration/staging tree
+VRolex Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/vrolexcoin-project/vrolexcoin.svg?branch=master)](https://travis-ci.org/vrolexcoin-project/vrolexcoin)
+[![Build Status](https://travis-ci.org/vrolex-project/vrolex.svg?branch=master)](https://travis-ci.org/vrolex-project/vrolex)
 
 https://vrolex.org
 
-What is vRolexCoin?
+What is VRolex?
 ----------------
 
-vRolexCoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. vRolexCoin uses peer-to-peer technology to operate
+VRolex is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. VRolex uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. vRolexCoin Core is the name of open source
+out collectively by the network. VRolex Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the vRolexCoin Core software, see [https://vrolex.org](https://vrolex.org).
+the VRolex Core software, see [https://vrolex.org](https://vrolex.org).
 
 License
 -------
 
-vRolexCoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+VRolex Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/vrolexcoin-project/vrolexcoin/tags) are created
-regularly to indicate new official, stable release versions of vRolexCoin Core.
+completely stable. [Tags](https://github.com/vrolex-project/vrolex/tags) are created
+regularly to indicate new official, stable release versions of VRolex Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/vrolexcoin-dev)
+The developer [mailing list](https://groups.google.com/forum/#!forum/vrolex-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #vrolexcoin-dev.
+Developer IRC can be found on Freenode at #vrolex-dev.
 
 Testing
 -------
@@ -70,7 +70,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to vRolexCoin periodically.
+Translations are converted to VRolex periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

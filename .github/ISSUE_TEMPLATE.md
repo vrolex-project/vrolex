@@ -1,10 +1,10 @@
 <!--- Remove sections that do not apply -->
 
-This issue tracker is only for technical issues related to vrolexcoin-core.
+This issue tracker is only for technical issues related to vrolex-core.
 
-General vrolexcoin questions and/or support requests and are best directed to the [vrolexcointalk.io forums](https://vrolexcointalk.io/).
+General vrolex questions and/or support requests and are best directed to the [vrolextalk.io forums](https://vrolextalk.io/).
 
-For reporting security issues, please contact the vRolexCoin developers on the #vrolexcoin-dev Freenode IRC channel or alternatively you can email us at contact@vrolex.org.
+For reporting security issues, please contact the VRolex developers on the #vrolex-dev Freenode IRC channel or alternatively you can email us at contact@vrolex.org.
 
 ### Describe the issue
 
@@ -23,7 +23,7 @@ Tell us what happens instead
 ### Screenshots.
 If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
 
-### What version of vrolexcoin-core are you using?
+### What version of vrolex-core are you using?
 List the version number/commit ID, and if it is an official binary, self compiled or a distribution package such as PPA.
 
 ### Machine specs:

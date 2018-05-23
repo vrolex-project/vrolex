@@ -103,8 +103,8 @@ namespace boost {
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "vrolexcoin.conf";
-const char * const BITCOIN_PID_FILENAME = "vrolexcoin.pid";
+const char * const BITCOIN_CONF_FILENAME = "vrolex.conf";
+const char * const BITCOIN_PID_FILENAME = "vrolex.pid";
 
 CCriticalSection cs_args;
 map<string, string> mapArgs;
@@ -462,7 +462,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "vrolexcoin";
+    const char* pszModule = "vrolex";
 #endif
     if (pex)
         return strprintf(
@@ -488,7 +488,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "vRolexCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "VRolex";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -498,10 +498,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/vRolexCoin";
+    return pathRet / "Library/Application Support/VRolex";
 #else
     // Unix
-    return pathRet / ".vrolexcoin";
+    return pathRet / ".vrolex";
 #endif
 #endif
 }

@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u vRolexCoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your VRolex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u VRolex betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u vRolexCoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your VRolex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u VRolexs sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Bevestig dat die beursie gekodifiseer is</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXCOINS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U VROLEXCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U VROLEXS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -330,8 +330,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Stuur munte na 'n vRolexCoin adres</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Stuur munte na 'n VRolex adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,8 +350,8 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +378,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u vRolexCoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u VRolex adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde vRolexCoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde VRolex adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -398,8 +398,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en vrolexcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en vrolex: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,8 +410,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Skep 'n vrolexcoin: URI of betalingsversoek</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Skep 'n vrolex: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -948,8 +948,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Kern</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Kern</translation>
     </message>
     <message>
         <source>Information</source>

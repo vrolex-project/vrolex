@@ -107,8 +107,8 @@
         <translation>仅支付全额的%1</translation>
     </message>
     <message>
-        <source>Warning: Invalid vRolexCoin address</source>
-        <translation>警告：vRolexCoin地址无效</translation>
+        <source>Warning: Invalid VRolex address</source>
+        <translation>警告：VRolex地址无效</translation>
     </message>
     </context>
 <context>

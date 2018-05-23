@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.vrolexcoin.vRolexCoin-Qt";
+        return @"org.vrolex.VRolex-Qt";
     } else {
         return [self __bundleIdentifier];
     }

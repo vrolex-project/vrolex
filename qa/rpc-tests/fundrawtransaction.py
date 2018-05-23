@@ -206,9 +206,9 @@ class RawTransactionsTest(BitcoinTestFramework):
 
         try:
             self.nodes[2].fundrawtransaction(rawtx, {'changeAddress': 'foobar'})
-            raise AssertionError("Accepted invalid vrolexcoin address")
+            raise AssertionError("Accepted invalid vrolex address")
         except JSONRPCException as e:
-            assert("changeAddress must be a valid vrolexcoin address" in e.error['message'])
+            assert("changeAddress must be a valid vrolex address" in e.error['message'])
 
 
         ############################################################

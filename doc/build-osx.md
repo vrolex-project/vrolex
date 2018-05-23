@@ -24,17 +24,17 @@ In case you want to build the disk image with `make deploy` (.dmg / optional), y
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build vRolexCoin Core
+Build VRolex Core
 ------------------------
 
-1. Clone the vrolexcoin source code and cd into `vrolexcoin`
+1. Clone the vrolex source code and cd into `vrolex`
 
-        git clone https://github.com/vrolexcoin-project/vrolexcoin
-        cd vrolexcoin
+        git clone https://github.com/vrolex-project/vrolex
+        cd vrolex
 
-2.  Build vrolexcoin-core:
+2.  Build vrolex-core:
 
-    Configure and build the headless vrolexcoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless vrolex binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -53,37 +53,37 @@ Build vRolexCoin Core
 Running
 -------
 
-vRolexCoin Core is now available at `./src/vrolexcoind`
+VRolex Core is now available at `./src/vrolexd`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=vrolexcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/vRolexCoin/vrolexcoin.conf"
+    echo -e "rpcuser=vrolexrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/VRolex/vrolex.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/vRolexCoin/vrolexcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/VRolex/vrolex.conf"
 
-The first time you run vrolexcoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run vrolexd, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/vRolexCoin/debug.log
+    tail -f $HOME/Library/Application\ Support/VRolex/debug.log
 
 Other commands:
 -------
 
-    ./src/vrolexcoind -daemon # Starts the vrolexcoin daemon.
-    ./src/vrolexcoin-cli --help # Outputs a list of command-line options.
-    ./src/vrolexcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/vrolexd -daemon # Starts the vrolex daemon.
+    ./src/vrolex-cli --help # Outputs a list of command-line options.
+    ./src/vrolex-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for vrolexcoin development.
+You can use Qt Creator as an IDE, for vrolex development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "vrolexcoin-qt" as project name, enter src/qt as location
+4. Enter "vrolex-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

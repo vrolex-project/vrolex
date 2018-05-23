@@ -5,7 +5,7 @@ Before every release candidate:
 
 * Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#synchronising-translations).
 
-* Update manpages, see [gen-manpages.sh](https://github.com/vrolexcoin-project/vrolexcoin/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update manpages, see [gen-manpages.sh](https://github.com/vrolex-project/vrolex/blob/master/contrib/devtools/README.md#gen-manpagessh).
 
 Before every minor and major release:
 
@@ -31,12 +31,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/vrolexcoin-project/gitian.sigs.VRC.git
-    git clone https://github.com/vrolexcoin-project/vrolexcoin-detached-sigs.git
+    git clone https://github.com/vrolex-project/gitian.sigs.VRC.git
+    git clone https://github.com/vrolex-project/vrolex-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/vrolexcoin-project/vrolexcoin.git
+    git clone https://github.com/vrolex-project/vrolex.git
 
-### vRolexCoin maintainers/release engineers, update version in sources
+### VRolex maintainers/release engineers, update version in sources
 
 Update the following:
 
@@ -75,7 +75,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./vrolexcoin
+    pushd ./vrolex
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -109,7 +109,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../vrolexcoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../vrolex/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -117,50 +117,50 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url vrolexcoin=/path/to/vrolexcoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url vrolex=/path/to/vrolex,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign vRolexCoin Core for Linux, Windows, and OS X:
+### Build and sign VRolex Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit vrolexcoin=v${VERSION} ../vrolexcoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/vrolexcoin-*.tar.gz build/out/src/vrolexcoin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit vrolex=v${VERSION} ../vrolex/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/vrolex-*.tar.gz build/out/src/vrolex-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit vrolexcoin=v${VERSION} ../vrolexcoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/vrolexcoin-*-win-unsigned.tar.gz inputs/vrolexcoin-win-unsigned.tar.gz
-    mv build/out/vrolexcoin-*.zip build/out/vrolexcoin-*.exe ../
+    ./bin/gbuild --memory 3000 --commit vrolex=v${VERSION} ../vrolex/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/vrolex-*-win-unsigned.tar.gz inputs/vrolex-win-unsigned.tar.gz
+    mv build/out/vrolex-*.zip build/out/vrolex-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit vrolexcoin=v${VERSION} ../vrolexcoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/vrolexcoin-*-osx-unsigned.tar.gz inputs/vrolexcoin-osx-unsigned.tar.gz
-    mv build/out/vrolexcoin-*.tar.gz build/out/vrolexcoin-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit vrolex=v${VERSION} ../vrolex/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/vrolex-*-osx-unsigned.tar.gz inputs/vrolex-osx-unsigned.tar.gz
+    mv build/out/vrolex-*.tar.gz build/out/vrolex-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`vrolexcoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`vrolexcoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`vrolexcoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `vrolexcoin-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`vrolexcoin-${VERSION}-osx-unsigned.dmg`, `vrolexcoin-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`vrolex-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`vrolex-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`vrolex-${VERSION}-win[32|64]-setup-unsigned.exe`, `vrolex-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`vrolex-${VERSION}-osx-unsigned.dmg`, `vrolex-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs.VRC/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import vrolexcoin/contrib/gitian-keys/*.pgp
+    gpg --import vrolex/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-linux ../vrolexcoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-win-unsigned ../vrolexcoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-unsigned ../vrolexcoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-linux ../vrolex/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-win-unsigned ../vrolex/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-unsigned ../vrolex/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -178,25 +178,25 @@ Commit your signature to gitian.sigs.VRC:
 Wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [vrolexcoin-detached-sigs](https://github.com/vrolexcoin-project/vrolexcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [vrolex-detached-sigs](https://github.com/vrolex-project/vrolex-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../vrolexcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-signed ../vrolexcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/vrolexcoin-osx-signed.dmg ../vrolexcoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../vrolex/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-signed ../vrolex/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/vrolex-osx-signed.dmg ../vrolex-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../vrolexcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-win-signed ../vrolexcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/vrolexcoin-*win64-setup.exe ../vrolexcoin-${VERSION}-win64-setup.exe
-    mv build/out/vrolexcoin-*win32-setup.exe ../vrolexcoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../vrolex/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-win-signed ../vrolex/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/vrolex-*win64-setup.exe ../vrolex-${VERSION}-win64-setup.exe
+    mv build/out/vrolex-*win32-setup.exe ../vrolex-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -218,17 +218,17 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-vrolexcoin-${VERSION}-aarch64-linux-gnu.tar.gz
-vrolexcoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-vrolexcoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-vrolexcoin-${VERSION}-x86_64-linux-gnu.tar.gz
-vrolexcoin-${VERSION}-osx64.tar.gz
-vrolexcoin-${VERSION}-osx.dmg
-vrolexcoin-${VERSION}.tar.gz
-vrolexcoin-${VERSION}-win32-setup.exe
-vrolexcoin-${VERSION}-win32.zip
-vrolexcoin-${VERSION}-win64-setup.exe
-vrolexcoin-${VERSION}-win64.zip
+vrolex-${VERSION}-aarch64-linux-gnu.tar.gz
+vrolex-${VERSION}-arm-linux-gnueabihf.tar.gz
+vrolex-${VERSION}-i686-pc-linux-gnu.tar.gz
+vrolex-${VERSION}-x86_64-linux-gnu.tar.gz
+vrolex-${VERSION}-osx64.tar.gz
+vrolex-${VERSION}-osx.dmg
+vrolex-${VERSION}.tar.gz
+vrolex-${VERSION}-win32-setup.exe
+vrolex-${VERSION}-win32.zip
+vrolex-${VERSION}-win64-setup.exe
+vrolex-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
@@ -252,16 +252,16 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - vrolexcoin-dev and vrolexcoin-dev mailing list
+  - vrolex-dev and vrolex-dev mailing list
 
   - blog.vrolex.org blog post
 
-  - Update title of #vrolexcoin and #vrolexcoin-dev on Freenode IRC
+  - Update title of #vrolex and #vrolex-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/vRolexCoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/VRolex, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/vrolexcoin-project/vrolexcoin/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/vrolex-project/vrolex/releases/new) with a link to the archived release notes.
 
   - Celebrate

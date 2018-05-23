@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu vRolexCoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your VRolex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu VRolex aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu vRolexCoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your VRolex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu VRolex aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Kinnita rahakoti krüpteerimine.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA VROLEXCOINID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXS&lt;/b&gt;!</source>
+        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA VROLEXID&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -290,8 +290,8 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Saada münte vRolexCoini aadressile</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Saada münte VRolexi aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +314,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -342,12 +342,12 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma vRolexCoini aadressiga</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma VRolexi aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud vRolexCoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud VRolexi aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,20 +366,20 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja vrolexcoini: URId)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja vrolexi: URId)</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Ava vrolexcoini: URI või maksepäring</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Ava vrolexi: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n aktiivne ühendus vRolexCoini võrku</numerusform><numerusform>%n aktiivset ühendust vRolexCoini võrku</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n aktiivne ühendus VRolexi võrku</numerusform><numerusform>%n aktiivset ühendust VRolexi võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid vRolexCoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne vRolexCoin aadress.</translation>
+        <source>The entered address "%1" is not a valid VRolex address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne VRolex aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,8 +756,8 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>vRolexCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>VRolexi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -855,7 +855,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vRolexCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VRolex network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1337,8 +1337,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid vRolexCoin address</source>
-        <translation>Hoiatus: Ebakorrektne vRolexCoin aadress</translation>
+        <source>Warning: Invalid VRolex address</source>
+        <translation>Hoiatus: Ebakorrektne VRolex aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1417,8 +1417,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The vRolexCoin address to sign the message with</source>
-        <translation>vRolexCoin aadress millega sõnum allkirjastada</translation>
+        <source>The VRolex address to sign the message with</source>
+        <translation>VRolex aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1449,8 +1449,8 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this vRolexCoin address</source>
-        <translation>Allkirjasta sõnum vRolexCoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this VRolex address</source>
+        <translation>Allkirjasta sõnum VRolexi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1469,12 +1469,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The vRolexCoin address the message was signed with</source>
-        <translation>vRolexCoin aadress millega sõnum on allkirjastatud</translation>
+        <source>The VRolex address the message was signed with</source>
+        <translation>VRolex aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified vRolexCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud vRolexCoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified VRolex address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud VRolexi aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1758,8 +1758,8 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoini tuumik</translation>
+        <source>VRolex Core</source>
+        <translation>VRolexi tuumik</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

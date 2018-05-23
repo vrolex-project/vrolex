@@ -66,8 +66,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -236,8 +236,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>

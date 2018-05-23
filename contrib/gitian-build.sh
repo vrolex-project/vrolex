@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/vrolexcoin-project/vrolexcoin
+url=https://github.com/vrolex-project/vrolex
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the vrolexcoin, gitian-builder, gitian.sigs.VRC, and vrolexcoin-detached-sigs.
+Run this script from the directory containing the vrolex, gitian-builder, gitian.sigs.VRC, and vrolex-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/vrolexcoin-project/vrolexcoin
+-u|--url	Specify the URL of the repository. Default is https://github.com/vrolex-project/vrolex
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -232,8 +232,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/vrolexcoin-project/gitian.sigs.VRC.git
-    git clone https://github.com/vrolexcoin-project/vrolexcoin-detached-sigs.git
+    git clone https://github.com/vrolex-project/gitian.sigs.VRC.git
+    git clone https://github.com/vrolex-project/vrolex-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./vrolexcoin
+pushd ./vrolex
 git fetch
 git checkout ${COMMIT}
 popd
@@ -256,7 +256,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./vrolexcoin-binaries/${VERSION}
+	mkdir -p ./vrolex-binaries/${VERSION}
 	
 	# Build Dependencies
 	echo ""
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../vrolexcoin/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../vrolex/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -274,9 +274,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit vrolexcoin=${COMMIT} --url vrolexcoin=${url} ../vrolexcoin/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/vrolexcoin-*.tar.gz build/out/src/vrolexcoin-*.tar.gz ../vrolexcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vrolex=${COMMIT} --url vrolex=${url} ../vrolex/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/vrolex-*.tar.gz build/out/src/vrolex-*.tar.gz ../vrolex-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -284,10 +284,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit vrolexcoin=${COMMIT} --url vrolexcoin=${url} ../vrolexcoin/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/vrolexcoin-*-win-unsigned.tar.gz inputs/vrolexcoin-win-unsigned.tar.gz
-	    mv build/out/vrolexcoin-*.zip build/out/vrolexcoin-*.exe ../vrolexcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vrolex=${COMMIT} --url vrolex=${url} ../vrolex/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/vrolex-*-win-unsigned.tar.gz inputs/vrolex-win-unsigned.tar.gz
+	    mv build/out/vrolex-*.zip build/out/vrolex-*.exe ../vrolex-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -295,10 +295,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit vrolexcoin=${COMMIT} --url vrolexcoin=${url} ../vrolexcoin/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/vrolexcoin-*-osx-unsigned.tar.gz inputs/vrolexcoin-osx-unsigned.tar.gz
-	    mv build/out/vrolexcoin-*.tar.gz build/out/vrolexcoin-*.dmg ../vrolexcoin-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit vrolex=${COMMIT} --url vrolex=${url} ../vrolex/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/vrolex-*-osx-unsigned.tar.gz inputs/vrolex-osx-unsigned.tar.gz
+	    mv build/out/vrolex-*.tar.gz build/out/vrolex-*.dmg ../vrolex-binaries/${VERSION}
 	fi
 	popd
 
@@ -325,27 +325,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-linux ../vrolexcoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-linux ../vrolex/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-win-unsigned ../vrolexcoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-win-unsigned ../vrolex/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX	
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""	
-	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-unsigned ../vrolexcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-unsigned ../vrolex/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-signed ../vrolexcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-signed ../vrolex/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-signed ../vrolexcoin/contrib/gitian-descriptors/gitian-osx-signer.yml	
+	./bin/gverify -v -d ../gitian.sigs.VRC/ -r ${VERSION}-osx-signed ../vrolex/contrib/gitian-descriptors/gitian-osx-signer.yml	
 	popd
 fi
 
@@ -360,10 +360,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../vrolexcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/vrolexcoin-*win64-setup.exe ../vrolexcoin-binaries/${VERSION}
-	    mv build/out/vrolexcoin-*win32-setup.exe ../vrolexcoin-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../vrolex/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/vrolex-*win64-setup.exe ../vrolex-binaries/${VERSION}
+	    mv build/out/vrolex-*win32-setup.exe ../vrolex-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -371,9 +371,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../vrolexcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.VRC/ ../vrolexcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/vrolexcoin-osx-signed.dmg ../vrolexcoin-binaries/${VERSION}/vrolexcoin-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../vrolex/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.VRC/ ../vrolex/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/vrolex-osx-signed.dmg ../vrolex-binaries/${VERSION}/vrolex-${VERSION}-osx.dmg
 	fi
 	popd
 

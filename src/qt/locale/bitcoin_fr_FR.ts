@@ -218,8 +218,8 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Envoyer des pièces à une adresse vRolexCoin</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Envoyer des pièces à une adresse VRolex</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -242,8 +242,8 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -270,8 +270,8 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses vRolexCoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses VRolex pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -290,24 +290,24 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et vrolexcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et vrolex: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Ouvrir un vrolexcoin: URI ou demande de paiement</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Ouvrir un vrolex: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n connexion active au réseau vRolexCoin</numerusform><numerusform>%n connexions actives au réseau vRolexCoin</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n connexion active au réseau VRolex</numerusform><numerusform>%n connexions actives au réseau VRolex</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -684,8 +684,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client vRolexCoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client VRolex automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -844,8 +844,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a vRolexCoin address (e.g. %1)</source>
-        <translation>Entrer une adresse vRolexCoin (e.g. %1)</translation>
+        <source>Enter a VRolex address (e.g. %1)</source>
+        <translation>Entrer une adresse VRolex (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1662,8 +1662,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

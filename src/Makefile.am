@@ -66,11 +66,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += vrolexcoind
+  bin_PROGRAMS += vrolexd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += vrolexcoin-cli vrolexcoin-tx
+  bin_PROGRAMS += vrolex-cli vrolex-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -353,16 +353,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-vrolexcoind_SOURCES = bitcoind.cpp
-vrolexcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-vrolexcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vrolexcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+vrolexd_SOURCES = bitcoind.cpp
+vrolexd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+vrolexd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+vrolexd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vrolexcoind_SOURCES += bitcoind-res.rc
+vrolexd_SOURCES += bitcoind-res.rc
 endif
 
-vrolexcoind_LDADD = \
+vrolexd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -375,38 +375,38 @@ vrolexcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-vrolexcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+vrolexd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-vrolexcoin_cli_SOURCES = bitcoin-cli.cpp
-vrolexcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-vrolexcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vrolexcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+vrolex_cli_SOURCES = bitcoin-cli.cpp
+vrolex_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+vrolex_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+vrolex_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vrolexcoin_cli_SOURCES += bitcoin-cli-res.rc
+vrolex_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-vrolexcoin_cli_LDADD = \
+vrolex_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-vrolexcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+vrolex_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-vrolexcoin_tx_SOURCES = bitcoin-tx.cpp
-vrolexcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-vrolexcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-vrolexcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+vrolex_tx_SOURCES = bitcoin-tx.cpp
+vrolex_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+vrolex_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+vrolex_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-vrolexcoin_tx_SOURCES += bitcoin-tx-res.rc
+vrolex_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-vrolexcoin_tx_LDADD = \
+vrolex_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,7 +414,7 @@ vrolexcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-vrolexcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+vrolex_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

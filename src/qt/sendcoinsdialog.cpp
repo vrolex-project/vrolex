@@ -764,7 +764,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid vRolexCoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid VRolex address"));
         }
         else // Valid address
         {

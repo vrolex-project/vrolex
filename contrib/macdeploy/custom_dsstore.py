@@ -45,8 +45,8 @@ alias = Alias.from_bytes(icvp['backgroundImageAlias'])
 alias.volume.name = package_name_ns
 alias.volume.posix_path = '/Volumes/' + package_name_ns
 alias.volume.disk_image_alias.target.filename = package_name_ns + '.temp.dmg'
-alias.volume.disk_image_alias.target.carbon_path = 'Macintosh HD:Users:\x00vrolexcoinuser:\x00Documents:\x00vrolexcoin:\x00vrolexcoin:\x00' + package_name_ns + '.temp.dmg'
-alias.volume.disk_image_alias.target.posix_path = 'Users/vrolexcoinuser/Documents/vrolexcoin/vrolexcoin/' + package_name_ns + '.temp.dmg'
+alias.volume.disk_image_alias.target.carbon_path = 'Macintosh HD:Users:\x00vrolexuser:\x00Documents:\x00vrolex:\x00vrolex:\x00' + package_name_ns + '.temp.dmg'
+alias.volume.disk_image_alias.target.posix_path = 'Users/vrolexuser/Documents/vrolex/vrolex/' + package_name_ns + '.temp.dmg'
 alias.target.carbon_path = package_name_ns + ':.background:\x00background.tiff'
 icvp['backgroundImageAlias'] = biplist.Data(alias.to_bytes())
 ds['.']['icvp'] = icvp
@@ -54,7 +54,7 @@ ds['.']['icvp'] = icvp
 ds['.']['vSrn'] = ('long', 1)
 
 ds['Applications']['Iloc'] = (370, 156)
-ds['vRolexCoin-Qt.app']['Iloc'] = (128, 156)
+ds['VRolex-Qt.app']['Iloc'] = (128, 156)
 
 ds.flush()
 ds.close()

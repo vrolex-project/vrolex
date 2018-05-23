@@ -62,12 +62,12 @@
         <translation>Přijímací adresy</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé vrolexcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your VRolex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé vrolexové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tohle jsou tvé vrolexcoinové adresy pro příjem plateb. Nezapomeň si pro každou transakci vždy vygenerovat novou adresu.</translation>
+        <source>These are your VRolex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tohle jsou tvé vrolexové adresy pro příjem plateb. Nezapomeň si pro každou transakci vždy vygenerovat novou adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Potvrď zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXCOINS&lt;/b&gt;!</source>
-        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY VROLEXCOINY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXS&lt;/b&gt;!</source>
+        <translation>Upozornění: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY VROLEXY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +180,8 @@
         <translation>Peněženka je zašifrována</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vrolexcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých vrolexcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vrolexs from being stolen by malware infecting your computer.</source>
+        <translation>%1 se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých vrolexů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -338,8 +338,8 @@
         <translation>Vytvářím nový index bloků na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Pošli mince na vrolexcoinovou adresu</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Pošli mince na vrolexovou adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Ověř zprávu...</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Zašifruj soukromé klíče ve své peněžence</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými vrolexcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými vrolexovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými vrolexcoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými vrolexovými adresami</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Panel s listy</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Požaduj platby (generuje QR kódy a vrolexcoin: URI)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Požaduj platby (generuje QR kódy a vrolex: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +426,16 @@
         <translation>Ukaž seznam použitých přijímacích adres a jejich označení</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Načti vrolexcoin: URI nebo platební požadavek</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Načti vrolex: URI nebo platební požadavek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Ar&amp;gumenty příkazové řádky</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n aktivní spojení do vrolexcoinové sítě</numerusform><numerusform>%n aktivní spojení do vrolexcoinové sítě</numerusform><numerusform>%n aktivních spojení do vrolexcoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n aktivní spojení do vrolexové sítě</numerusform><numerusform>%n aktivní spojení do vrolexové sítě</numerusform><numerusform>%n aktivních spojení do vrolexové sítě</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -478,8 +478,8 @@
         <translation>Aktuální</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible vRolexCoin command-line options</source>
-        <translation>Seznam argumentů vRolexCoinu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <source>Show the %1 help message to get a list with possible VRolex command-line options</source>
+        <translation>Seznam argumentů VRolexu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -548,8 +548,8 @@
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. vRolexCoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. vRolexCoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. VRolex can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. VRolex nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -742,8 +742,8 @@
         <translation>Uprav odesílací adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid vRolexCoin address.</source>
-        <translation>Zadaná adresa „%1“ není platná vrolexcoinová adresa.</translation>
+        <source>The entered address "%1" is not a valid VRolex address.</source>
+        <translation>Zadaná adresa „%1“ není platná vrolexová adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -851,7 +851,7 @@
         <translation>Tohle je poprvé, co spouštíš %1, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the vRolexCoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the VRolex block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %2 GB dat – toto číslo bude navíc v průběhu času růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
     </message>
     <message>
@@ -886,12 +886,12 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vrolexcoin network, as detailed below.</source>
-        <translation>Nedávné transakce ještě nemusí být vidět, takže stav tvého účtu nemusí být platný. Jakmile se však tvá peněženka dosynchronizuje s vrolexcoinovou sítí (viz informace níže), tak už bude stav správně.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vrolex network, as detailed below.</source>
+        <translation>Nedávné transakce ještě nemusí být vidět, takže stav tvého účtu nemusí být platný. Jakmile se však tvá peněženka dosynchronizuje s vrolexovou sítí (viz informace níže), tak už bude stav správně.</translation>
     </message>
     <message>
-        <source>Attempting to spend vrolexcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Utrácení vrolexcoinů, které už utratily zatím nezobrazené transakce, nebude vrolexcoinovou sítí umožněno.</translation>
+        <source>Attempting to spend vrolexs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Utrácení vrolexů, které už utratily zatím nezobrazené transakce, nebude vrolexovou sítí umožněno.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1048,7 +1048,7 @@
         <translation>&amp;Utrácet i ještě nepotvrzené drobné</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -1056,8 +1056,8 @@
         <translation>Namapovat port přes &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a SOCKS5 proxy.</source>
-        <translation>Připojí se do vrolexcoinové sítě přes SOCKS5 proxy.</translation>
+        <source>Connect to the VRolex network through a SOCKS5 proxy.</source>
+        <translation>Připojí se do vrolexové sítě přes SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Připojí se do vrolexcoinové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
+        <source>Connect to the VRolex network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Připojí se do vrolexové sítě přes SOCKS5 proxy vyhrazenou pro skryté služby v Tor síti.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1195,8 +1195,8 @@
         <translation>Formulář</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vRolexCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s vrolexcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VRolex network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s vrolexovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1270,8 +1270,8 @@
         <translation>Chyba platebního požadavku</translation>
     </message>
     <message>
-        <source>Cannot start vrolexcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit vrolexcoin: obsluha click-to-pay</translation>
+        <source>Cannot start vrolex: click-to-pay handler</source>
+        <translation>Nemůžu spustit vrolex: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1286,8 +1286,8 @@
         <translation>Neplatná platební adresa %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid vRolexCoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná vrolexcoinová adresa nebo poškozené parametry URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid VRolex address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná vrolexová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1380,8 +1380,8 @@
         <translation>Částka</translation>
     </message>
     <message>
-        <source>Enter a vRolexCoin address (e.g. %1)</source>
-        <translation>Zadej vrolexcoinovou adresu (např. %1)</translation>
+        <source>Enter a VRolex address (e.g. %1)</source>
+        <translation>Zadej vrolexovou adresu (např. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1804,8 +1804,8 @@
         <translation>&amp;Recyklovat již existující adresy (nedoporučeno)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the vRolexCoin network.</source>
-        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po vrolexcoinové síti.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the VRolex network.</source>
+        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po vrolexové síti.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2037,8 +2037,8 @@
         <translation>přinejmenším</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for vrolexcoin transactions than the network can process.</source>
-        <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po vrolexcoinových transakcích, než síť zvládne zpracovat.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for vrolex transactions than the network can process.</source>
+        <translation>Platit jen minimální poplatek je v pořádku, pokud je zrovna méně transakcí než místa v blocích. Ale počítej s tím, že to také může skončit transakcí, která nikdy nebude potvrzena, pokud je větší poptávka po vrolexových transakcích, než síť zvládne zpracovat.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2201,8 +2201,8 @@
         <translation><numerusform>Potvrzování by podle odhadu mělo začít během %n bloku.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform><numerusform>Potvrzování by podle odhadu mělo začít během %n bloků.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid vRolexCoin address</source>
-        <translation>Upozornění: Neplatná vrolexcoinová adresa</translation>
+        <source>Warning: Invalid VRolex address</source>
+        <translation>Upozornění: Neplatná vrolexová adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2244,8 +2244,8 @@
         <translation>Tohle je normální platba.</translation>
     </message>
     <message>
-        <source>The vRolexCoin address to send the payment to</source>
-        <translation>vRolexCoinová adresa příjemce</translation>
+        <source>The VRolex address to send the payment to</source>
+        <translation>VRolexová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2264,8 +2264,8 @@
         <translation>Smaž tento záznam</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less vrolexcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně vrolexcoinů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vrolexs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Poplatek se odečte od posílané částky. Příjemce tak dostane méně vrolexů, než zadáš do pole Částka. Pokud vybereš více příjemců, tak se poplatek rovnoměrně rozloží.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2288,8 +2288,8 @@
         <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
     </message>
     <message>
-        <source>A message that was attached to the vrolexcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the vRolexCoin network.</source>
-        <translation>Zpráva, která byla připojena k vrolexcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po vrolexcoinové síti.</translation>
+        <source>A message that was attached to the vrolex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the VRolex network.</source>
+        <translation>Zpráva, která byla připojena k vrolex: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po vrolexové síti.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2333,12 +2333,12 @@
         <translation>&amp;Podepiš zprávu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive vrolexcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout vrolexcoiny. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vrolexs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Podepsáním zprávy/smlouvy svými adresami můžeš prokázat, že jsi na ně schopen přijmout vrolexy. Buď opatrný a nepodepisuj nic vágního nebo náhodného; například při phishingových útocích můžeš být lákán, abys něco takového podepsal. Podepisuj pouze naprosto úplná a detailní prohlášení, se kterými souhlasíš.</translation>
     </message>
     <message>
-        <source>The vRolexCoin address to sign the message with</source>
-        <translation>vRolexCoinová adresa, kterou se zpráva podepíše</translation>
+        <source>The VRolex address to sign the message with</source>
+        <translation>VRolexová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2369,8 +2369,8 @@
         <translation>Zkopíruj tento podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this vRolexCoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této vrolexcoinové adresy</translation>
+        <source>Sign the message to prove you own this VRolex address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této vrolexové adresy</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2393,12 +2393,12 @@
         <translation>K ověření podpisu zprávy zadej adresu příjemce, zprávu (ověř si, že správně kopíruješ zalomení řádků, mezery, tabulátory apod.) a podpis. Dávej pozor na to, abys nezkopíroval do podpisu víc, než co je v samotné podepsané zprávě, abys nebyl napálen man-in-the-middle útokem. Poznamenejme však, že takto lze pouze prokázat, že podepisující je schopný na dané adrese přijmout platbu, ale není možnéprokázat, že odeslal jakoukoli transakci!</translation>
     </message>
     <message>
-        <source>The vRolexCoin address the message was signed with</source>
-        <translation>vRolexCoinová adresa, kterou je zpráva podepsána</translation>
+        <source>The VRolex address the message was signed with</source>
+        <translation>VRolexová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified vRolexCoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou vrolexcoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified VRolex address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou vrolexovou adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3058,8 +3058,8 @@
         <translation>Nemohu spustit HTTP server. Detaily viz v debug.log.</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

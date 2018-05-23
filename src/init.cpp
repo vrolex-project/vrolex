@@ -506,7 +506,7 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/vrolexcoin-project/vrolexcoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/vrolex-project/vrolex>";
     const std::string URL_WEBSITE = "<https://vrolex.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
@@ -788,7 +788,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("vRolexCoin version %s\n", FormatFullVersion());
+    LogPrintf("VRolex version %s\n", FormatFullVersion());
 }
 
 namespace { // Variables internal to initialization process only

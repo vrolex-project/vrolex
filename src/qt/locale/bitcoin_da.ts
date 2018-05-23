@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Vælg adresse at sende vrolexcoins til</translation>
+        <translation>Vælg adresse at sende vrolexs til</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Vælg adresse at modtage vrolexcoins med</translation>
+        <translation>Vælg adresse at modtage vrolexs med</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine vRolexCoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender vrolexcoins.</translation>
+        <source>These are your VRolex addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine VRolex-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender vrolexs.</translation>
     </message>
     <message>
-        <source>These are your vRolexCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine vRolexCoin-adresser til modtagelse af betalinger. Det anbefales at bruge en ny modtagelsesadresse for hver transaktion.</translation>
+        <source>These are your VRolex addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine VRolex-adresser til modtagelse af betalinger. Det anbefales at bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Bekræft tegnebogskryptering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXCOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer din tegnebog og mister din adgangskode, vil du &lt;b&gt;MISTE ALLE DINE VROLEXCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VROLEXS&lt;/b&gt;!</source>
+        <translation>Advarsel: Hvis du krypterer din tegnebog og mister din adgangskode, vil du &lt;b&gt;MISTE ALLE DINE VROLEXS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +180,8 @@
         <translation>Tegnebog krypteret</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vrolexcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine vrolexcoin fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your vrolexs from being stolen by malware infecting your computer.</source>
+        <translation>%1 vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine vrolex fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -338,8 +338,8 @@
         <translation>Genindekserer blokke på disken…</translation>
     </message>
     <message>
-        <source>Send coins to a vRolexCoin address</source>
-        <translation>Send vrolexcoins til en vRolexCoin-adresse</translation>
+        <source>Send coins to a VRolex address</source>
+        <translation>Send vrolexs til en VRolex-adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +362,8 @@
         <translation>&amp;Verificér besked…</translation>
     </message>
     <message>
-        <source>vRolexCoin</source>
-        <translation>vRolexCoin</translation>
+        <source>VRolex</source>
+        <translation>VRolex</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +390,12 @@
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your vRolexCoin addresses to prove you own them</source>
-        <translation>Signér beskeder med dine vRolexCoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your VRolex addresses to prove you own them</source>
+        <translation>Signér beskeder med dine VRolex-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified vRolexCoin addresses</source>
-        <translation>Verificér beskeder for at sikre, at de er signeret med de angivne vRolexCoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified VRolex addresses</source>
+        <translation>Verificér beskeder for at sikre, at de er signeret med de angivne VRolex-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Faneværktøjslinje</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and vrolexcoin: URIs)</source>
-        <translation>Anmod om betalinger (genererer QR-koder og “vrolexcoin:”-URI'er)</translation>
+        <source>Request payments (generates QR codes and vrolex: URIs)</source>
+        <translation>Anmod om betalinger (genererer QR-koder og “vrolex:”-URI'er)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +426,16 @@
         <translation>Vis listen over brugte modtagelsesadresser og -mærkater</translation>
     </message>
     <message>
-        <source>Open a vrolexcoin: URI or payment request</source>
-        <translation>Åbn en “vrolexcoin:”-URI eller betalingsanmodning</translation>
+        <source>Open a vrolex: URI or payment request</source>
+        <translation>Åbn en “vrolex:”-URI eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to vRolexCoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til vRolexCoin-netværket</numerusform><numerusform>%n aktive forbindelser til vRolexCoin-netværket</numerusform></translation>
+        <source>%n active connection(s) to VRolex network</source>
+        <translation><numerusform>%n aktiv forbindelse til VRolex-netværket</numerusform><numerusform>%n aktive forbindelser til VRolex-netværket</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -478,8 +478,8 @@
         <translation>Opdateret</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible vRolexCoin command-line options</source>
-        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for vRolexCoin kommandolinje</translation>
+        <source>Show the %1 help message to get a list with possible VRolex command-line options</source>
+        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for VRolex kommandolinje</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -548,8 +548,8 @@
         <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. vRolexCoin can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. vRolexCoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. VRolex can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. VRolex kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -742,8 +742,8 @@
         <translation>Redigér afsendelsesadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid vRolexCoin address.</source>
-        <translation>Den indtastede adresse “%1” er ikke en gyldig vRolexCoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid VRolex address.</source>
+        <translation>Den indtastede adresse “%1” er ikke en gyldig VRolex-adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -851,8 +851,8 @@
         <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor %1 skal gemme sin data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the vRolexCoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 vil downloade og gemme et kopi af vRolexCoin-blokkæden. Mindst %2 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
+        <source>%1 will download and store a copy of the VRolex block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 vil downloade og gemme et kopi af VRolex-blokkæden. Mindst %2 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -886,12 +886,12 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vrolexcoin network, as detailed below.</source>
-        <translation>Nylige transaktioner er måske ikke synlige endnu, og derfor kan din tegnebogs saldo være ukorrekt. Denne information vil være korrekt, når din tegnebog er færdig med at synkronisere med vrolexcoin-netværket, som detaljerne herunder viser.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the vrolex network, as detailed below.</source>
+        <translation>Nylige transaktioner er måske ikke synlige endnu, og derfor kan din tegnebogs saldo være ukorrekt. Denne information vil være korrekt, når din tegnebog er færdig med at synkronisere med vrolex-netværket, som detaljerne herunder viser.</translation>
     </message>
     <message>
-        <source>Attempting to spend vrolexcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Forsøg på at bruge vrolexcoin, som er indeholdt i endnu-ikke-viste transaktioner, accepteres ikke af netværket.</translation>
+        <source>Attempting to spend vrolexs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Forsøg på at bruge vrolex, som er indeholdt i endnu-ikke-viste transaktioner, accepteres ikke af netværket.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1048,16 +1048,16 @@
         <translation>&amp;Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the vRolexCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn automatisk vRolexCoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
+        <source>Automatically open the VRolex client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn automatisk VRolex-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a SOCKS5 proxy.</source>
-        <translation>Forbind til vRolexCoin-netværket gennem en SOCKS5-proxy.</translation>
+        <source>Connect to the VRolex network through a SOCKS5 proxy.</source>
+        <translation>Forbind til VRolex-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the vRolexCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Forbind til vRolexCoin-netværket gennem en separat SOCKS5-proxy for skjulte Tor-tjenester.</translation>
+        <source>Connect to the VRolex network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Forbind til VRolex-netværket gennem en separat SOCKS5-proxy for skjulte Tor-tjenester.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1145,7 +1145,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vælg standard for underopdeling af enhed, som skal vises i brugergrænsefladen og ved afsendelse af vrolexcoins.</translation>
+        <translation>Vælg standard for underopdeling af enhed, som skal vises i brugergrænsefladen og ved afsendelse af vrolexs.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1195,8 +1195,8 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the vRolexCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med vRolexCoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VRolex network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med VRolex-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1270,8 +1270,8 @@
         <translation>Fejl i betalingsanmodning</translation>
     </message>
     <message>
-        <source>Cannot start vrolexcoin: click-to-pay handler</source>
-        <translation>Kan ikke starte vrolexcoin: click-to-pay-håndtering</translation>
+        <source>Cannot start vrolex: click-to-pay handler</source>
+        <translation>Kan ikke starte vrolex: click-to-pay-håndtering</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1286,8 +1286,8 @@
         <translation>Ugyldig betalingsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid vRolexCoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig vRolexCoin-adresse eller forkert udformede URL-parametre.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid VRolex address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig VRolex-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1380,8 +1380,8 @@
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a vRolexCoin address (e.g. %1)</source>
-        <translation>Indtast en vRolexCoin-adresse (fx %1)</translation>
+        <source>Enter a VRolex address (e.g. %1)</source>
+        <translation>Indtast en VRolex-adresse (fx %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1804,8 +1804,8 @@
         <translation>&amp;Genbrug en eksisterende modtagelsesadresse (anbefales ikke)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the vRolexCoin network.</source>
-        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over vRolexCoin-netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the VRolex network.</source>
+        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over VRolex-netværket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1958,7 +1958,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send vrolexcoins</translation>
+        <translation>Send vrolexs</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2037,8 +2037,8 @@
         <translation>total mindst</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for vrolexcoin transactions than the network can process.</source>
-        <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter vrolexcoin-transaktioner, end hvad netværket kan bearbejde.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for vrolex transactions than the network can process.</source>
+        <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter vrolex-transaktioner, end hvad netværket kan bearbejde.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2150,7 +2150,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af vrolexcoins</translation>
+        <translation>Bekræft afsendelse af vrolexs</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2201,8 +2201,8 @@
         <translation><numerusform>Bekræftelse estimeret til at begynde om %n blok.</numerusform><numerusform>Bekræftelse estimeret til at begynde om %n blokke.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid vRolexCoin address</source>
-        <translation>Advarsel: Ugyldig vRolexCoin-adresse</translation>
+        <source>Warning: Invalid VRolex address</source>
+        <translation>Advarsel: Ugyldig VRolex-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2244,8 +2244,8 @@
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The vRolexCoin address to send the payment to</source>
-        <translation>vRolexCoin-adresse, som betalingen skal sendes til</translation>
+        <source>The VRolex address to send the payment to</source>
+        <translation>VRolex-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2264,8 +2264,8 @@
         <translation>Fjern denne indgang</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less vrolexcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre vrolexcoin, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less vrolexs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre vrolex, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2288,8 +2288,8 @@
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the vrolexcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the vRolexCoin network.</source>
-        <translation>En besked, som blev føjet til “vrolexcoin:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over vRolexCoin-netværket.</translation>
+        <source>A message that was attached to the vrolex: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the VRolex network.</source>
+        <translation>En besked, som blev føjet til “vrolex:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over VRolex-netværket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2333,12 +2333,12 @@
         <translation>&amp;Singér besked</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive vrolexcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage vrolexcoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive vrolexs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage vrolex, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The vRolexCoin address to sign the message with</source>
-        <translation>vRolexCoin-adresse, som beskeden skal signeres med</translation>
+        <source>The VRolex address to sign the message with</source>
+        <translation>VRolex-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2369,8 +2369,8 @@
         <translation>Kopiér den nuværende signatur til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this vRolexCoin address</source>
-        <translation>Signér denne besked for at bevise, at vRolexCoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this VRolex address</source>
+        <translation>Signér denne besked for at bevise, at VRolex-adressen tilhører dig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2393,12 +2393,12 @@
         <translation>Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The vRolexCoin address the message was signed with</source>
-        <translation>vRolexCoin-adressen, som beskeden blev signeret med</translation>
+        <source>The VRolex address the message was signed with</source>
+        <translation>VRolex-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified vRolexCoin address</source>
-        <translation>Verificér beskeden for at sikre, at den er signeret med den angivne vRolexCoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified VRolex address</source>
+        <translation>Verificér beskeden for at sikre, at den er signeret med den angivne VRolex-adresse</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2623,7 +2623,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Minede vrolexcoins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til “ikke accepteret”, og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
+        <translation>Minede vrolexs skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til “ikke accepteret”, og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2949,7 +2949,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send vrolexcoins</translation>
+        <translation>Send vrolexs</translation>
     </message>
 </context>
 <context>
@@ -3058,8 +3058,8 @@
         <translation>Kunne ikke starte HTTP-server. Se fejlretningslog for detaljer.</translation>
     </message>
     <message>
-        <source>vRolexCoin Core</source>
-        <translation>vRolexCoin Core</translation>
+        <source>VRolex Core</source>
+        <translation>VRolex Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

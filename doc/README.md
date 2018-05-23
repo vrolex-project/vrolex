@@ -1,41 +1,41 @@
-vRolexCoin Core 0.14.5
+VRolex Core 0.14.6
 =====================
 
 Setup
 ---------------------
-vRolexCoin Core is the original vRolexCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of vRolexCoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+VRolex Core is the original VRolex client and it builds the backbone of the network. However, it downloads and stores the entire history of VRolex transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download vRolexCoin Core, visit [vrolex.org](https://vrolex.org).
+To download VRolex Core, visit [vrolex.org](https://vrolex.org).
 
 Running
 ---------------------
-The following are some helpful notes on how to run vRolexCoin on your native platform.
+The following are some helpful notes on how to run VRolex on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/vrolexcoin-qt` (GUI) or
-- `bin/vrolexcoind` (headless)
+- `bin/vrolex-qt` (GUI) or
+- `bin/vrolexd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run vrolexcoin-qt.exe.
+Unpack the files into a directory, and then run vrolex-qt.exe.
 
 ### OS X
 
-Drag vRolexCoin-Core to your applications folder, and then run vRolexCoin-Core.
+Drag VRolex-Core to your applications folder, and then run VRolex-Core.
 
 ### Need Help?
 
-* See the documentation at the [vRolexCoin Wiki](https://vrolexcoin.info/)
+* See the documentation at the [VRolex Wiki](https://vrolex.info/)
 for help and more information.
-* Ask for help on [#vrolexcoin](http://webchat.freenode.net?channels=vrolexcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vrolexcoin).
-* Ask for help on the [vRolexCoinTalk](https://vrolexcointalk.io/) forums.
+* Ask for help on [#vrolex](http://webchat.freenode.net?channels=vrolex) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=vrolex).
+* Ask for help on the [VRolexTalk](https://vrolextalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build vRolexCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build VRolex on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -45,12 +45,12 @@ The following are developer notes on how to build vRolexCoin on your native plat
 
 Development
 ---------------------
-The vRolexCoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The VRolex repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/vrolexcoin/doxygen/)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/vrolex/doxygen/)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
 - [Travis CI](travis-ci.md)
@@ -61,8 +61,8 @@ The vRolexCoin repo's [root README](/README.md) contains relevant information on
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [vRolexCoinTalk](https://vrolexcointalk.io/) forums.
-* Discuss general vRolexCoin development on #vrolexcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vrolexcoin-dev).
+* Discuss on the [VRolexTalk](https://vrolextalk.io/) forums.
+* Discuss general VRolex development on #vrolex-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=vrolex-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
