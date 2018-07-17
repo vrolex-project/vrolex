@@ -71,10 +71,10 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 4200000;
-        consensus.BIP34Height = 1000000000; //No force BIP34 until the end
+        consensus.BIP34Height = 2000000000; //No force BIP34 until the end
         consensus.BIP34Hash = uint256S("");
-        consensus.BIP65Height = 1000000000; //No force BIP65 until the end
-        consensus.BIP66Height = 1000000000; //No force BIP66 until the end
+        consensus.BIP65Height = 2000000000; //No force BIP65 until the end
+        consensus.BIP66Height = 2000000000; //No force BIP66 until the end
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 120; // 30 seconds
         consensus.nPowTargetSpacing = 30; // 30 seconds
@@ -97,10 +97,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000043d6a4d1");
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000000000081b5afa59");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x2e9d3640d62054a44808b1f42c98414c91c0725d51fc669c6be7a93f04dd342a"); //1126
+        consensus.defaultAssumeValid = uint256S("0xf065e0b6897a1bd5c6955f7bcbe61f8fd599366317013cfd019e1c5e2da80419"); //32768
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -139,15 +139,20 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (   4, uint256S("0xe3d491b817340580d0478bf9c00a7d37397bcbb4243a649f94bea043309a07e2"))
-            (   8, uint256S("0x2b6e5cef72ccc7af97584f2e8a43203770adeefbca835ccec3cd8da13ecf29b9"))
-            (  16, uint256S("0x1786fad84b0cc53b4affbbe5788fbaa1ac20d699c72dfef7618d7c94ec4810dc"))
-            (  32, uint256S("0x5b731f8d2924697b8e775dd6c525591f11d16808fe9eb4afa34dd746fc287622"))
-            (  64, uint256S("0x5615f9a45d236d22f786e6d1adcf630085221df37f4182c530ba5f40f454be50"))
-            ( 128, uint256S("0xce00a61aec12b9b19b2c59c1a91948a0db5e9c7c2c1dd65787dccc29eb512c48"))
-            ( 256, uint256S("0x27f65a627113e99bc151c7ca4d4cd3a08db79bd89eae1904b893884a71074ce0"))
-            ( 512, uint256S("0x39e64d4e1e2f231289bb27bdb593aaeb3bb6513e25063336504dcf345e47adbb"))
-            (1024, uint256S("0x62e04356e1154ceb2501468e3de153c7f1757e7741b1b68d20929f70cd867cca"))
+            (    4, uint256S("0xe3d491b817340580d0478bf9c00a7d37397bcbb4243a649f94bea043309a07e2"))
+            (    8, uint256S("0x2b6e5cef72ccc7af97584f2e8a43203770adeefbca835ccec3cd8da13ecf29b9"))
+            (   16, uint256S("0x1786fad84b0cc53b4affbbe5788fbaa1ac20d699c72dfef7618d7c94ec4810dc"))
+            (   32, uint256S("0x5b731f8d2924697b8e775dd6c525591f11d16808fe9eb4afa34dd746fc287622"))
+            (   64, uint256S("0x5615f9a45d236d22f786e6d1adcf630085221df37f4182c530ba5f40f454be50"))
+            (  128, uint256S("0xce00a61aec12b9b19b2c59c1a91948a0db5e9c7c2c1dd65787dccc29eb512c48"))
+            (  256, uint256S("0x27f65a627113e99bc151c7ca4d4cd3a08db79bd89eae1904b893884a71074ce0"))
+            (  512, uint256S("0x39e64d4e1e2f231289bb27bdb593aaeb3bb6513e25063336504dcf345e47adbb"))
+            ( 1024, uint256S("0x62e04356e1154ceb2501468e3de153c7f1757e7741b1b68d20929f70cd867cca"))
+            ( 2048, uint256S("0x4870a117c293b576dda08ba8f5ef3b0770f74f09c590df7e590cc49a28d51762"))
+            ( 4096, uint256S("0x7544ecdbf6e9780b8784c8855dd52b3bcd6edb004f9d4a5c410b3ec503b9a6cc"))
+            ( 8192, uint256S("0x2cb2893286c1aa19810bd1aa66ecde3c8b112b0cc2dbeb32027d1236edd4ee5e"))
+            (16384, uint256S("0xa94a0a3dbf3afc22817c0809f7f783f77ed112ec4a33c0144d6fe805eb22e590"))
+            (32768, uint256S("0xf065e0b6897a1bd5c6955f7bcbe61f8fd599366317013cfd019e1c5e2da80419"))
         };
 
         chainTxData = ChainTxData{
@@ -156,7 +161,7 @@ public:
             //121,  // * total number of transactions between genesis and that timestamp
                     //   (the tx=... number in the SetBestChain debug.log lines)
             //0.00007 = 121 / (1516328121 - 1514764800)    // * estimated number of transactions per second after that timestamp
-            1527030076,
+            1531785627,
             1,
             0.0333 // 1 transaction per block per 30 seconds
         };
@@ -172,10 +177,10 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 4200000;
-        consensus.BIP34Height = 1000000000; //No force BIP34 until the end
+        consensus.BIP34Height = 2000000000; //No force BIP34 until the end
         consensus.BIP34Hash = uint256S("");
-        consensus.BIP65Height = 1000000000; //No force BIP65 until the end
-        consensus.BIP66Height = 1000000000; //No force BIP66 until the end
+        consensus.BIP65Height = 2000000000; //No force BIP65 until the end
+        consensus.BIP66Height = 2000000000; //No force BIP66 until the end
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 120;
         consensus.nPowTargetSpacing = 30;
@@ -262,7 +267,7 @@ public:
     CRegTestParams() {
         strNetworkID = "regtest";
         consensus.nSubsidyHalvingInterval = 150;
-        consensus.BIP34Height = 1000000000; // BIP34 has not activated on regtest (far in the future so block v1 are not rejected in tests)
+        consensus.BIP34Height = 2000000000; // BIP34 has not activated on regtest (far in the future so block v1 are not rejected in tests)
         consensus.BIP34Hash = uint256();
         consensus.BIP65Height = 0; // BIP65 activated on regtest (Used in rpc activation tests)
         consensus.BIP66Height = 0; // BIP66 activated on regtest (Used in rpc activation tests)
