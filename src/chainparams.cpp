@@ -97,10 +97,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000000000081b5afa59");
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000000000000000084b7df11c");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xf065e0b6897a1bd5c6955f7bcbe61f8fd599366317013cfd019e1c5e2da80419"); //32768
+        consensus.defaultAssumeValid = uint256S("0xf03ab152cbd445bceccdd1061ff75326eccefde755fa4ae7c1af1389d9868de1"); //33515
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -151,8 +151,9 @@ public:
             ( 2048, uint256S("0x4870a117c293b576dda08ba8f5ef3b0770f74f09c590df7e590cc49a28d51762"))
             ( 4096, uint256S("0x7544ecdbf6e9780b8784c8855dd52b3bcd6edb004f9d4a5c410b3ec503b9a6cc"))
             ( 8192, uint256S("0x2cb2893286c1aa19810bd1aa66ecde3c8b112b0cc2dbeb32027d1236edd4ee5e"))
-            (16384, uint256S("0xa94a0a3dbf3afc22817c0809f7f783f77ed112ec4a33c0144d6fe805eb22e590"))
-            (32768, uint256S("0xf065e0b6897a1bd5c6955f7bcbe61f8fd599366317013cfd019e1c5e2da80419"))
+            (10240, uint256S("0x23a8a21a986225b153296b3d0df3e4cbd7f0756c2cdaa73b57c708867737c8c5"))
+            (20480, uint256S("0xee56aabfd573dc53f6d29eb89e98d6058c878ca0d8e090fdf148cf4f7cc46844"))
+            (33515, uint256S("0xf03ab152cbd445bceccdd1061ff75326eccefde755fa4ae7c1af1389d9868de1"))
         };
 
         chainTxData = ChainTxData{
@@ -161,7 +162,7 @@ public:
             //121,  // * total number of transactions between genesis and that timestamp
                     //   (the tx=... number in the SetBestChain debug.log lines)
             //0.00007 = 121 / (1516328121 - 1514764800)    // * estimated number of transactions per second after that timestamp
-            1531785627,
+            1531879526,
             1,
             0.0333 // 1 transaction per block per 30 seconds
         };
